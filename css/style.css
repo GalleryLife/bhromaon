@@ -10,7 +10,7 @@ body {
 }
 
 .header {
-    background-image: url(../img/header/img.png);
+    background-image: url(../img/header/mainBackground.png);
     background-repeat: no-repeat;
     border: 1px solid #f00;
     background-size: cover;
