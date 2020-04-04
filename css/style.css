@@ -1,0 +1,132 @@
+body {
+    font-family: "Josefin Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.container {
+    border: 1px solid #000;
+}
+
+.header {
+    background-image: url(../img/header/img.png);
+    background-repeat: no-repeat;
+    border: 1px solid #f00;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.header-text {
+    text-align: center;
+    padding-top: 265px;
+}
+
+.header-text h1 {
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 4.8px;
+}
+
+.header-text p {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 6.82px;
+    margin-bottom: 50px;
+}
+
+
+/**Form__search======================================**/
+
+.search {
+    height: 50px;
+    margin: 0 auto;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+}
+
+.search__form {
+    height: 100%;
+}
+
+.search__input {
+    height: 100%;
+    padding: 3px;
+    padding-left: 5em;
+    margin-right: -5px;
+    width: 500px;
+    color: #999;
+    font-family: "Josefin Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 2.8px;
+}
+
+.search__button {
+    position: relative;
+    border: none;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    padding-right: 25px;
+    cursor: pointer;
+    color: #fff;
+    font-family: 'Aleo', sans-serif;
+    border: 1px solid #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    background-color: #5474fd;
+}
+
+.search__icon {
+    position: absolute;
+    right: 1.5em;
+    top: 5px;
+}
+
+.header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+/*header=======================================*/
+
+.main {
+    width: 1770px;
+    height: 80px;
+    background-color: #5474fd;
+}
+
+.main h2 {
+    text-transform: uppercase;
+    color: #ffff;
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+    margin: 0;
+}
+
+.main__items ul {
+    text-transform: uppercase;
+    color: #ffff;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row-reverse;
+}
