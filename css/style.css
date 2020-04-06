@@ -5,14 +5,10 @@ body {
     border: 0;
 }
 
-.container {
-    border: 1px solid #000;
-}
 
 .header {
     background-image: url(../img/header/mainBackground.png);
     background-repeat: no-repeat;
-    border: 1px solid #f00;
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -93,40 +89,75 @@ body {
 .search__icon {
     position: absolute;
     right: 1.5em;
-    top: 5px;
+    top: 14px;
 }
 
+/*.link-down-wrapper {
+    display: flex;
+    justify-content: center;
+}
+если применить этот стиль ссылка всегда будет по центру но иконка снизу приклеивается к слову*/
+
 .header a {
+    position: relative;
+    left: 950px;
     color: #fff;
     text-decoration: none;
     font-size: 14px;
     font-weight: 400;
     line-height: 26px;
+    top: 148px;
+    letter-spacing: 2.8px;
+}
+
+.icon-down {
+    position: absolute;
+    top: 15px;
+    left: 45px;
+    cursor: pointer;
 }
 
 
 /*header=======================================*/
 
 .main {
-    width: 1770px;
-    height: 80px;
     background-color: #5474fd;
+    max-width: 1770px;
+    padding-left: 330px;
+    padding-right: 330px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
 }
 
-.main h2 {
+h2 {
     text-transform: uppercase;
     color: #ffff;
     font-size: 24px;
     line-height: 26px;
     font-weight: 700;
     letter-spacing: 2.4px;
-    margin: 0;
+    
 }
 
-.main__items ul {
+.nav {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav>li {
+    margin-left: 41px;
+}
+
+ul {
+    cursor: pointer;
     text-transform: uppercase;
     color: #ffff;
     list-style-type: none;
-    display: flex;
-    flex-direction: row-reverse;
+}
+
+.nav>li:hover {
+    background-color: #fff; 
+    transition: linear .5s;
+    color: #5474fd;
 }
